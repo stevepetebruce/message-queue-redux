@@ -1,0 +1,67 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #f2f2f2;
+
+	font-weight: bold;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+button {
+	background-color: #032a8c;
+	color: white;
+	padding: 0.7rem 0.8rem;
+	border: 0;
+	border-radius: 6px;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 1rem;
+}
+
+input {
+	padding: 0.7rem 0.8rem;
+	margin-right: 12px;
+	border-radius: 6px;
+	border: #888 solid 1px;
+	width: 180px;
+}
+
+.App {
+	text-align: center;
+}
+
+.header {
+	padding: 1rem;
+}
+
+.message-input {
+	margin: 8px 0;
+}
+
+.messages-container {
+	margin: 8px auto;
+	width: 400px;
+}
+
+.message {
+	background: rgb(31, 82, 175);
+	background: linear-gradient(
+		25deg,
+		rgba(31, 82, 175, 1) 20%,
+		rgba(59, 104, 217, 1) 90%
+	);
+	color: white;
+	padding: 1.2rem 0.8rem;
+	border-radius: 12px;
+	border: #ccc 1px solid;
+	margin-bottom: 6px;
+	font-size: 1.2rem;
+}
