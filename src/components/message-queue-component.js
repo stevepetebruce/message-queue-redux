@@ -27,18 +27,18 @@ function MessageQueue(props) {
 
   return (
     <>
-      <header class="header">
+      <header className="header">
         <label>Enter your message</label> 
-        <div class="message-input">
+        <div className="message-input">
           <input type="text" onChange={onChangeHandler} value={message}/>
           <button type="submit" onClick={onSubmitHandler}>Submit</button>
         </div>
       </header>
-      <section class="messages-container">
+      <section className="messages-container">
       {
         props.messageQueue.map(queue => {
           return(
-            <div key={queue.id} class="message">{queue.message}</div>
+            <div key={queue.id} className="message">{queue.message}</div>
           )
         })
       }
